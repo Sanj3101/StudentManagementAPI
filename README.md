@@ -15,13 +15,12 @@ Using .NET CLI:
 dotnet run
 
 🌐 API will start at:
-https://localhost:<port>/
-http://localhost:<port>/
+`https://localhost:<your-port>/`
 
 
 Open Swagger UI for testing:
 
-👉 https://localhost:<port>/swagger
+👉 `https://localhost:<your-port>/swagger`
 
 📡 API Endpoints
 
@@ -179,7 +178,8 @@ Not Found Response
 }
 ```
 
-🧱 Project Structure (Short Version)
+🧱 Project Structure
+```txt
 StudentManagementAPI/
 │
 ├── Application/
@@ -192,6 +192,7 @@ StudentManagementAPI/
 ├── Data/                   # DbContext + InMemory DB
 ├── Models/                 # Entities + ApiResponse
 └── Program.cs
+```
 
 🎯 Tech Used
 
