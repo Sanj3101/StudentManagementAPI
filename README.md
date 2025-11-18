@@ -2,7 +2,7 @@
 
 🚀 How to Run the API
 1. Clone the Repository
-git clone https://github.com/<your-username>/StudentManagementAPI.git
+```git clone https://github.com/<your-username>/StudentManagementAPI.git```
 cd StudentManagementAPI
 
 2. Run the Project
@@ -12,7 +12,7 @@ Using Visual Studio:
 
 Using .NET CLI:
 
-dotnet run
+```dotnet run```
 
 🌐 API will start at:
 `https://localhost:<your-port>/`
@@ -198,10 +198,10 @@ StudentManagementAPI/
 
 ASP.NET Core 9 Web API
 
-MediatR
+- MediatR
 
-FluentValidation
+- FluentValidation
 
-Entity Framework Core (InMemory)
+- Entity Framework Core (InMemory)
 
-Swagger / OpenAPI
+- Swagger / OpenAPI
